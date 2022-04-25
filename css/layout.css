@@ -1,4 +1,38 @@
-
+body{
+  background-color:#333;
+}
+article{
+  width:800px;
+  margin: 0 auto;
+  background-color:#fff;
+}
+article>header{
+  margin-bottom:25px;
+}
+article>h2{
+  width:780px;
+  margin: 0 auto 25px;
+  font-size:25px;
+}
+article>p{
+  width:780px;
+  margin: 0 auto 25px;
+  column-count: 3;
+  column-rule: 1px solid red;
+  line-height:1.5em;
+}
+article>footer{
+  
+}
+article>footer>ul{
+  width:600px;
+  display:flex;
+  flex-wrap:wrap;
+  margin: 0 auto;
+}
+article>footer>ul>li{
+  width:50%;
+}
 
 
 
