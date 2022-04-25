@@ -1,6 +1,7 @@
 body{
   background-color:#333;
 }
+img{max-width:100%;}
 article{
   width:100%/* 800px */;
   margin: 0 auto;
@@ -32,4 +33,35 @@ article>footer>ul{
 }
 article>footer>ul>li{
   width:50%;
+}
+
+@media screen and (min-width:800px){
+  article{
+    width:800px;
+  }
+}
+@media screen and (max-width:799px) and (min-width:600px){
+
+}
+
+@media screen and (max-width:599px) and (min-width:400px){
+  article>p{
+    width:97.5%/* 780px */;
+    column-count: 2;
+    text-align:justify;
+  }
+}
+@media screen and (max-width:399px){
+  article>p{
+    column-count: 1;
+  }
+  article>footer>ul{
+    width:auto;
+    display:block;
+  }
+  article>footer>ul>li{
+    width:auto;
+    text-align:center;
+  }
+  
 }
